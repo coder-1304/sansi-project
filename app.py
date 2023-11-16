@@ -19,6 +19,7 @@ def predict_hate(text):
     
     # Make predictions using the SVM classifier
     result = svm_classifier.predict(text_count)
+    
 
     # print(result[0])
     
