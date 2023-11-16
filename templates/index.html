@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sentiment Analysis</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="script" href="script.js" />
+  </head>
+  <body>
+    <div class="center-container">
+      <div class="container">
+        <h1>Sentiment Analysis</h1>
+        <div class="form-container">
+          <label for="text-input">Enter your text:</label>
+          <textarea
+            id="text-input"
+            rows="4"
+            placeholder="Type your text here..."
+          ></textarea>
+          <button id="analyze-button">Analyze</button>
+        </div>
+        <img id="emotions-meter" src="./images/emotions-meter.jpg" alt="" />
+        <div class="upper-result-container">
+          <img id="meme-image" src="" alt="" />
+          <div class="result-container">
+            <!-- <h2>Result:</h2> -->
+            <p id="result-text"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
